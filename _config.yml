@@ -375,7 +375,7 @@ plugins:
 
 # Adding fav-icon
 favicon: /assets/img/jackfavicon.ico
-# apple_touch_icon: /assets/img/logo.png
+apple_touch_icon: /assets/img/jackfavicon.ico
 
 # Plugin Configs
 # ---------------------------------------------------------------------------------------
