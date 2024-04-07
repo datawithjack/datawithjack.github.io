@@ -25,7 +25,7 @@ basics:
   profiles:
 #    - network: "Twitter"
 #      username: "RHendricksCEO"
-      url: ""
+#      url: ""
     - network: "LinkedIn"
       username: "Jack Frank Andrew"
       url: "www.linkedin.com/in/jack-frank-andrew-3a957774"
