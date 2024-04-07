@@ -52,7 +52,7 @@ menu:
   - title:             About
     url:               /about/
   - title:             Resume
-    url:               /docs/
+    url:               /resume/
   - title:             Portfolio
     url:               /example/
   - title:             Data Challenges
