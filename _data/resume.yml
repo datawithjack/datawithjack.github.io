@@ -4,7 +4,7 @@
 basics:
   name: "Jack Andrew"
   label: "Data Analyst"
-  picture: "https://github.com/datawithjack/datawithjack.github.io/tree/main/assets/img/jack_head_shot256.png"
+  picture: "https://raw.githubusercontent.com/datawithjack/datawithjack.github.io/main/assets/img/jack_head_shot256.png"
   email: "jackfrankandrew@gmail.com"
   phone: "+975 5597 9702"
   website: "https://datawithjack.github.io/"
