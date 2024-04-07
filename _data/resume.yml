@@ -2,38 +2,36 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
+  name: "Jack Andrew"
+  label: "Data Analyst"
   picture: "https://via.placeholder.com/240x240"
   email: ""
-  phone: "(912) 555-4321"
+  phone: "+975 5597 9702"
   website: "https://piedpiper.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
+    Jack Andrew from United Kingdom.
+    He has earned degrees from the University of Manchester and the University of Galway.
     Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
+    While his work focuses on data analyst, report building...,
     mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
+    his non-work interests range widely everything from ....windsurf, squash...
     Open `_data/resume.yml` to edit this text.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
+    address: "Doha, Qatar"
+    postalCode: ""
+    city: "Doha"
+    countryCode: "QAT"
     region: "California"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
+#    - network: "Twitter"
+#      username: "RHendricksCEO"
       url: ""
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Jack Frank Andrew"
+      url: "www.linkedin.com/in/jack-frank-andrew-3a957774"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
+  - company: "Aspire Acadmemy"
+    position: "Sports Insight Analyst"
     website: "https://piedpiper.com"
     startDate: "2013-12-01"
     endDate: ""
@@ -45,22 +43,31 @@ work:
       - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
       - "Successfully won Techcrunch Disrupt"
       - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
+#volunteer:
+#  - organization: "CoderDojo"
+#    position: "Teacher"
+#    website: "https://coderdojo.com/"
+#    startDate: "2012-01-01"
+#    endDate: "2013-01-01"
+#    summary: "Global movement of free coding clubs for young people."
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+  - institution: "University of Galway"
+    area: "Biostatistic"
+    studyType: "Masters"
+    startDate: "2020-10-01"
+    endDate: "2021-10-01"
+    #gpa: "4.0"
+    courses:
+      - "DB1101 - Basic SQL"
+      - "CS2011 - Java Introduction"
+  - institution: "University of Manchester"
+    area: "Mathematics"
+    studyType: "Bachelors"
+    startDate: "2010-09-01"
+    endDate: "2013-06-01"
+    gpa: "2:1"
     courses:
       - "DB1101 - Basic SQL"
       - "CS2011 - Java Introduction"
@@ -69,12 +76,12 @@ awards:
     date: "2014-11-01"
     awarder: "Techcrunch"
     summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+#publications:
+#  - name: "Video compression for 3d media"
+#    publisher: "Hooli"
+#    releaseDate: "2014-10-01"
+#    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#    summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
   - name: "Web Development"
     level: "Master"
@@ -96,8 +103,8 @@ interests:
     keywords:
       - "Ferrets"
       - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
