@@ -4,10 +4,10 @@
 basics:
   name: "Jack Andrew"
   label: "Data Analyst"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
+  picture: /assets/img/jack_head_shot256.png
+  email: "jackfrankandrew@gmail.com"
   phone: "+975 5597 9702"
-  website: "https://piedpiper.com"
+  website: "https://datawithjack.github.io/"
   summary: >
     Jack Andrew from United Kingdom.
     He has earned degrees from the University of Manchester and the University of Galway.
@@ -17,11 +17,11 @@ basics:
     his non-work interests range widely everything from ....windsurf, squash...
     Open `_data/resume.yml` to edit this text.
   location:
-    address: "Doha, Qatar"
+    address: ""
     postalCode: ""
     city: "Doha"
-    countryCode: "QAT"
-    region: "California"
+    countryCode: "Qatar"
+    region: ""
   profiles:
 #    - network: "Twitter"
 #      username: "RHendricksCEO"
