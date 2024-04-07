@@ -30,15 +30,23 @@ basics:
       username: "Jack Frank Andrew"
       url: "https://linkedin.com/in/jack-frank-andrew-3a957774"
 work:
-  - company: "Aspire Acadmemy"
+  - company: "Aspire Academy"
     position: "Sports Insight Analyst"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+    website: "https://www.aspire.qa/Home"
+    startDate: "2018-11-04"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Aspire Academy is......
+    highlights:
+      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+      - "Successfully won Techcrunch Disrupt"
+      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+    position: "Athlete Data Analyst"
+    website: "https://www.aspire.qa/Home"
+    startDate: "2018-11-04"
+    endDate: ""
+    summary: >
+      Aspire Academy is......
     highlights:
       - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
       - "Successfully won Techcrunch Disrupt"
