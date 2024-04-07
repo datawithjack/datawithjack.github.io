@@ -1,4 +1,4 @@
-# If you have a `resume.json` file, copy it into `_data` and delete this file.
+j# If you have a `resume.json` file, copy it into `_data` and delete this file.
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
@@ -28,7 +28,7 @@ basics:
 #      url: ""
     - network: "LinkedIn"
       username: "Jack Frank Andrew"
-      url: "www.linkedin.com/in/jack-frank-andrew-3a957774"
+      url: "https://linkedin.com/in/jack-frank-andrew-3a957774"
 work:
   - company: "Aspire Acadmemy"
     position: "Sports Insight Analyst"
