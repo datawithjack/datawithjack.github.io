@@ -33,7 +33,7 @@ work:
   - company: "Aspire Academy"
     position: "Sports Insight Analyst"
     website: "https://www.aspire.qa/Home"
-    startDate: "2018-11-04"
+    startDate: "2020-09-01"
     endDate: ""
     summary: >
       Aspire Academy is......
@@ -41,12 +41,13 @@ work:
       - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
       - "Successfully won Techcrunch Disrupt"
       - "Optimized an algorithm that holds the current world record for Weisman Scores"
+  - company: "Aspire Academy"
     position: "Athlete Data Analyst"
     website: "https://www.aspire.qa/Home"
     startDate: "2018-11-04"
-    endDate: ""
-    summary: >
-      Aspire Academy is......
+    endDate: "2020-09-01"
+#    summary: >
+#      Aspire Academy is......
     highlights:
       - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
       - "Successfully won Techcrunch Disrupt"
