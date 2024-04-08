@@ -1,0 +1,21 @@
+---
+layout: post
+title: The Rest is Politics- - People, Places & Organisations
+image: /assets/img/portfolio/trips_screenshot1.JPG
+#accent_image: 
+#  background: url('/assets/img/blog/jj-ying.jpg') center/cover
+#  overlay: false
+accent_color: '#ccc'
+theme_color: '#ccc'
+description: >
+  A report exploring the people, places and organisations of The Rest is Politics podcast using the Spotify API.
+invert_sidebar: true
+---
+
+This page will contains the write up for my trips report.
+
+blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+
+
+link to maven profile.
+
