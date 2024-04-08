@@ -1,9 +1,15 @@
 ---
 layout: post
 title: Maven Lego Challenge
-image: 
-sitemap: false
-cover: true
+image: /assets/img/blog/jj-ying.jpg
+accent_image: 
+  background: url('/assets/img/blog/jj-ying.jpg') center/cover
+  overlay: false
+accent_color: '#ccc'
+theme_color: '#ccc'
+description: >
+  Winning entry to the Feb 2024 Maven Analytics Data Visualisation Challenge.
+invert_sidebar: true
 ---
 
 This page contains my February 2024 Maven Analytics Lego entry.
