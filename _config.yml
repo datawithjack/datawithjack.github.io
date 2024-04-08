@@ -54,12 +54,12 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Resume
-    url:               /resume/
   - title:             Portfolio
-    url:               /example/
+    url:               /portfolio/
   - title:             Data Challenges
     url:               /challenges/
+  - title:             Resume
+    url:               /resume/
   - title:             Blog
     url:               /example/
 
