@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maven Lego Challenge
-#image: /assets/img/blog/jj-ying.jpg
+image: /assets/img/challenges/80sscreenshot.JPG
 #accent_image: 
 #  background: url('/assets/img/blog/jj-ying.jpg') center/cover
 #  overlay: false
