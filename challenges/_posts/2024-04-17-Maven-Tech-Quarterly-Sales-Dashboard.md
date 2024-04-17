@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maven Tech Quarterly Sales Data Challenge
-image: /assets/img/challenges/projectimage1.JPG
+image: /assets/img/challenges/projectimage1.png
 #accent_image: 
 #  background: url('/assets/img/blog/jj-ying.jpg') center/cover
 #  overlay: false
