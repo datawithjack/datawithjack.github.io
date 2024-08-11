@@ -32,7 +32,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Data Analyst | Aspiring Fabricator
+tagline:               Data Analyst
 
 # A list of keywords for your blog
 keywords:              []
@@ -54,6 +54,8 @@ author:
 menu:
   - title:             About
     url:               /about/
+  - title:             Work with me
+    url:               /workwithme/
   - title:             Portfolio
     url:               /portfolio/
   - title:             Data Challenges
