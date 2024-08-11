@@ -14,7 +14,7 @@ Are you ready to transform your data into actionable insights? Whether you need 
 
 ### Client Testimonials
 
-What have my previous clients had to say about my work?
+Here's what some of my clients have to say about working with me:
 
 ***insert steve test***
 
