@@ -10,3 +10,7 @@ Welcome to my data portfolio! Here I showcase my talents for all to see. Please 
 I also work freelance so if you're in need hit the HIRE ME button on the left to see what services I offer on a consultancy basis. :)
 
 Add featured items on this page....
+
+<!--projects-->
+
+<!--portfolio-->
