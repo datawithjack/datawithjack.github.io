@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Doha Track Star Speed Report
-image: /assets/img/portfolio/trips_screenshot1.jpg
+image: /assets/img/portfolio/dohatrackstartscreenshot1.PNG
 #accent_image: 
 #  background: url('/assets/img/blog/jj-ying.jpg') center/cover
 #  overlay: false
