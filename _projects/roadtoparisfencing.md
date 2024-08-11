@@ -1,10 +1,10 @@
 ---
 layout: project
-title: 'Hydejack Site'
-caption: Dogfooding Hydejack to sell Hydejack.
+title: 'Road to Paris 2024 - Fencing Qualification'
+caption: Tracking fencing athletes progress towards qualification for the 2024 Paris Olympic Games
 description: >
   While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
-date: '01-01-2016'
+date: '01-09-2023'
 image: 
   path: /assets/img/projects/hydejack-site.jpg
   srcset: 
@@ -16,3 +16,5 @@ links:
     url: https://hydejack.com/
 sitemap: false
 ---
+
+Add FIE fencing report.
