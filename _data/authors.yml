@@ -8,11 +8,17 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hi, I'm Jack Frank Andrew, a Senior Sports Data Insights Analyst at Aspire Academy. With a solid foundation in Mathematics and a Master's degree in Biostatistics, I bring a unique blend of analytical skills and sports-specific experience to my work. As a former decathlete who represented Great Britain, I understand the intricacies of sports data firsthand. I'm a proud Power BI nerd and aspiring Fabricator, holding Power BI Data Analyst Associate and Fabric Associate Engineer certifications. My deep passion for Power BI was recognized when I won the February 2024 edition of the Maven Analytics Dashboard Challenge. I’m dedicated to helping people make better use of their data and try my best to train and mentor clients to help them become self-sufficient in their data needs.
+    Hi, I'm Jack Frank Andrew, a Power BI consultant and the Senior Sports Data Insights Analyst at Aspire Academy in Qatar.
+    
+    I'm a proud Power BI nerd with over 8 years of experience and hold a Microsft Power BI Data Analyst Associate and Fabric Associate Engineer certifications. I have a Master's degree in Biostatistics and am a former decathlete who represented Great Britain. 
+    
+    I bring a unique blend of analytical skills and sports-specific experience to my work and understand the intricacies of sports data firsthand.  
+    
+    I’m dedicated to helping people make better use of their data and try my best to train and mentor clients to help them become self-sufficient in their data needs.
 
     Outside of work, I'm an avid watersports enthusiast, with a particular love for windsurfing. I also enjoy playing squash, staying fit, and spending time outside.
     
-    Open `_data/authors.yml` to edit this text.
+    
 
   # This photo will be used in the about section
   picture:
