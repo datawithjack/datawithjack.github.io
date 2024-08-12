@@ -9,7 +9,7 @@ accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
   A report exploring the athlete speed data from the Doha Track Stars running group.
-invert_sidebar: true
+invert_sidebar: false
 ---
 
 This page will contains the write up for my doha track starts report.
