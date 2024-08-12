@@ -11,6 +11,6 @@ I also work freelance so if you're in need hit the HIRE ME button on the left to
 
 Add featured items on this page....
 
-<!--projects-->
+
 
 <!--portfolio-->
