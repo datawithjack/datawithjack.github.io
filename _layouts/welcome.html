@@ -13,7 +13,7 @@ layout: about
 
 {% assign nodes = site.html_pages | concat: site.documents %}
 
-{% if content contains "<!--portfolio-->" %}
+{% if content contains "<!--projects-->" %}
 {% capture projects_x %}
 {% if page.selected_projects %}
   <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
