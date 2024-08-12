@@ -54,18 +54,19 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Hire Me
+  - title:             Hire Me!
     url:               /hireme/
   - title:             Portfolio
     url:               /portfolio/
+  - title:             Blog
+    url:               /example/
   - title:             Data Challenges
     url:               /challenges/
-  - title:             Projects
+  - title:             Other Work
     url:               /projects/
   - title:             Resume
     url:               /resume/
-  - title:             Blog
-    url:               /example/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
