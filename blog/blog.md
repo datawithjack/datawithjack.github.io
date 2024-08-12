@@ -1,0 +1,6 @@
+---
+layout: blog
+title: Blog
+sitemap: true
+cover: false
+---
