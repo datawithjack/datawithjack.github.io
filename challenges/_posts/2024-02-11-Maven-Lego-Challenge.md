@@ -9,7 +9,7 @@ accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
   Winning entry to the Feb 2024 Maven Analytics Data Visualisation Challenge.
-invert_sidebar: true
+invert_sidebar: false
 ---
 
 This page contains my February 2024 Maven Analytics Lego entry.
