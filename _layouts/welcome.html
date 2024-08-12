@@ -170,4 +170,56 @@ layout: about
 {% assign content = content | replace:"<!--posts_list-->", posts_x %}
 {% endif %}
 
+{% if content contains "<!--portfolio-->" %}
+{% capture portfolio_x %}
+{% if page.selected_portfolio %}
+  <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+    {% for portfolio_path in page.selected_portfolio %}
+      {% if major >= 4 and minor >= 1 %}
+        {% assign portfolio_item = site.portfolio | find_exp:"portfolio", "portfolio_path == portfolio_item.path or portfolio_path == portfolio_item.url" %}
+      {% else %}
+        {% assign portfolio_item = site.portfolio | where_exp:"portfolio", "portfolio_path == portfolio_item.path" | first %}
+        {% unless portfolio_item %}{% assign portfolio_item = site.portfolio | where_exp:"portfolio", "portfolio_path == portfolio_item.url"  | first %}{% endunless %}
+      {% endif %}
+      <div class="column {% if portfolio_item.featured %}column-1{% else %}column-1-2{% endif %}">
+        {% if portfolio_item %}
+          {% include_cached pro/portfolio-card.html portfolio=portfolio_item %}
+        {% else %}
+          Portfolio item with path <code>{{ portfolio_path }}</code> not found.
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% elsif site.portfolio.size > 1 %}
+  <div class="columns mt2 {% unless no_third_column %}columns-break{% endunless %}">
+    {% for portfolio_item in site.portfolio limit:2 %}
+      <div class="column {% if portfolio_item.featured %}column-1{% else %}column-1-2{% endif %}">
+        {% include_cached pro/portfolio-card.html portfolio=portfolio_item %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% assign portfolio_page = page.portfolio_page | default:page.more_portfolio %}
+{% if portfolio_page %}
+  {% if major >= 4 and minor >= 1 %}
+    {% assign more_portfolio = nodes | find_exp:"page", "portfolio_page == page.path or portfolio_page == page.url" %}
+  {% else %}
+    {% assign more_portfolio = nodes | where_exp:"page", "portfolio_page == page.path" | first %}
+    {% unless more_portfolio %}{% assign more_portfolio = nodes | where_exp:"page", "portfolio_page == page.url"  | first %}{% endunless %}
+  {% endif %}
+  {% if more_portfolio %}
+    {% capture portfolio_title %}<a class="heading flip-title" href="{{ more_portfolio.url | relative_url }}">{{ more_portfolio.title }}</a>{% endcapture %}
+    {% assign text = strings.welcome.more_portfolio | default:"See <!--portfolio_title--> for more" %}
+    <p class="read-more mt1">
+      {{ text | replace:"<!--portfolio_title-->", portfolio_title }}
+    </p>
+  {% else %}
+    Page with path <code>{{ portfolio_page }}</code> not found.
+  {% endif  %}
+{% endif %}
+{% endcapture %}
+{% assign content = content | replace:"<!--portfolio-->", portfolio_x %}
+{% endif %}
+
 {{ content }}
