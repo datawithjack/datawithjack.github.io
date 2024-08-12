@@ -16,4 +16,3 @@ Add featured items on this page....
 <!--portfolio-->
 
 
-<!--author-->
