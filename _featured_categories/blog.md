@@ -13,7 +13,7 @@ slug: blog
 #  Here I share my ideas, insights, and stories on various topics.
 
 # (Optional) You can disable grouping posts by date.
-# no_groups: false
+# no_groups: true
 
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
