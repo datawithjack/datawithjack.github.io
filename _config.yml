@@ -59,7 +59,7 @@ menu:
   - title:             Portfolio
     url:               /portfolio/
   - title:             Blog
-    url:               /blog/
+    url:               /example/
   - title:             Data Challenges
     url:               /challenges/
   - title:             Other Work
