@@ -10,6 +10,8 @@ theme_color: '#ccc'
 description: >
   A report exploring the athlete speed data from the Doha Track Stars running group.
 invert_sidebar: false
+categories: [powerbi]
+tags:       [dax]
 ---
 
 This page will contains the write up for my doha track starts report.
