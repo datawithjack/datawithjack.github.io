@@ -3,6 +3,9 @@ layout: welcome
 title: Welcome!
 sitemap: false
 cover: true
+selected_projects:
+  - _projects/roadtoparisfencing.md
+projects_page: projects.md
 ---
 
 Welcome to my data portfolio! Here I showcase my talents for all to see. Please explore....
