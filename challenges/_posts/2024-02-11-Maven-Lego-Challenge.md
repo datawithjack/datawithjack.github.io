@@ -10,7 +10,7 @@ theme_color: '#ccc'
 description: >
   Winning entry to the Feb 2024 Maven Analytics Data Visualisation Challenge.
 invert_sidebar: false
-categories: [powerbi]
+categories: [powerbi, challenges, portfolio]
 ---
 
 This page contains my February 2024 Maven Analytics Lego entry.
