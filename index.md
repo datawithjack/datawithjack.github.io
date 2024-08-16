@@ -3,26 +3,18 @@ layout: welcome
 title: Welcome!
 sitemap: false
 cover: true
-selected_projects:
-  - _projects/roadtoparisfencing.md
-  - _portfolio/2024-09-20-TRIPS.md
-projects_page: projects.md
 ---
 
-Welcome to my data portfolio! Here I showcase my talents for all to see. Please explore....
-
-I also work freelance so if you're in need hit the HIRE ME button on the left to see what services I offer on a consultancy basis. :)
-
-Add featured items on this page....
+Welcome to my site! Here I aim to showcase my talents for all to see. 
 
 ###  Blog
+Lastest blog posts.
+<!--posts-->
 
-### Portfolio
-<!--portfolio-->
-
-### Other Work
+### Projects
+Selection of my projects.
 <!--projects-->
 
-<!--posts-->
+
 
 
