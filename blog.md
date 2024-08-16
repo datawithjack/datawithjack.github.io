@@ -1,7 +1,6 @@
 ---
-layout: list
-title: Blog
+layout: grid
+title: 
 slug: blog
 ---
 
-<!--posts-->
