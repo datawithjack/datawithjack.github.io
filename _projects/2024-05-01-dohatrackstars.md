@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Doha Track Star Speed Report
 image: /assets/img/portfolio/dohatrackstartscreenshot1.PNG
 #accent_image: 
@@ -10,7 +10,7 @@ theme_color: '#ccc'
 description: >
   A report exploring the athlete speed data from the Doha Track Stars running group.
 invert_sidebar: false
-categories: [powerbi]
+categories: [powerbi, portfolio]
 tags:       [dax]
 ---
 
