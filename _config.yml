@@ -320,7 +320,7 @@ collections:
     output:            true
 
   blog:
-    permalink:         /blog/:path/
+    permalink:         /_blog/:path/
     output:            true
 
 
