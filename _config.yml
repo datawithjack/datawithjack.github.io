@@ -304,7 +304,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /challenges/
+    permalink:         /:path/
     output:            true
 
   featured_tags:
