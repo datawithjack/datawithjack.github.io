@@ -8,10 +8,12 @@ Whether you need to create a brand new report, enhance existing dashboards, cond
 
 Here's what some of my clients have to say about working with me:
 
-> ***insert steve test***
+> "This is something nice to say about Jack"
+> ***Dave, CEO, SomeCompany***
 {:.lead}
 
-> ***insert jayray test***
+> "This is something else nice about Jack"
+> ***Bob, CEO, SomeCompany***
 {:.lead}
 
 ### How It Works
