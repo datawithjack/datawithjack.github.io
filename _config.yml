@@ -304,7 +304,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /powerbi/
+    permalink:         /challenges/
     output:            true
 
   featured_tags:
