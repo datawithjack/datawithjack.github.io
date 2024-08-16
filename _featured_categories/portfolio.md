@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: grid
 title: My Portfolio
 slug: portfolio
 # description: >
