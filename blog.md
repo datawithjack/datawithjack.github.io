@@ -1,6 +1,6 @@
 ---
 layout: grid
 title: 
-slug: blog
+slug: 
 ---
 
