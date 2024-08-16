@@ -3,8 +3,8 @@ layout: welcome
 title: Welcome!
 sitemap: false
 cover: true
-projects_page: projects.md
-posts_page: blog.md
+# projects_page: projects.md
+# posts_page: blog.md
 
 ---
 
