@@ -11,10 +11,12 @@ Whether you need to create a brand new report, enhance existing dashboards, cond
 
 Here's what some of my clients have to say about working with me:
 
-***insert steve test***
+> ***insert steve test***
+{:.lead}
 
-***insert jayray test***
 
+> ***insert jayray test***
+{:.lead}
 
 
 ### How It Works
