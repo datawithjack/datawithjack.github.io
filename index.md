@@ -3,6 +3,9 @@ layout: welcome
 title: Welcome!
 sitemap: false
 cover: true
+projects_page: projects.md
+posts_page: blog.md
+
 ---
 
 Welcome to my site! Here I aim to showcase my talents for all to see. 
