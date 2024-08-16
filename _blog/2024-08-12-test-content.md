@@ -6,6 +6,7 @@ description: >
 sitemap: false
 image: /assets/img/blog/example-content-ii.jpg
 featured: true
+categories: blog
 ---
 
 
