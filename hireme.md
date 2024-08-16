@@ -3,7 +3,9 @@ layout: page
 title: Ready to Turn Your Data into Action?
 ---
 
-Are you ready to transform your data into actionable insights? Whether you need to create a brand new report, enhance existing dashboards, conduct in-depth data analysis, or fine-tune your data strategy, I’m here to help.
+Are you ready to transform your data into actionable insights? 
+
+Whether you need to create a brand new report, enhance existing dashboards, conduct in-depth data analysis, or fine-tune your data strategy, I’m here to help.
 
 ### Client Testimonials
 
