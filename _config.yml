@@ -319,9 +319,6 @@ collections:
     permalink:         /portfolio/:path/
     output:            true
 
-  blog:
-    permalink:         /_blog/:path/
-    output:            true
 
 
 # File inclusion/exclusion
