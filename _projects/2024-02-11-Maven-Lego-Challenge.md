@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Maven Lego Challenge
 image: /assets/img/challenges/80sscreenshot.JPG
 #accent_image: 
