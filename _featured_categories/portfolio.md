@@ -1,5 +1,5 @@
 ---
-layout: grid
+layout: blog
 title: My Portfolio
 slug: portfolio
 # description: >
