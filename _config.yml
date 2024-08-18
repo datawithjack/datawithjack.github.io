@@ -59,7 +59,7 @@ menu:
   - title:             Portfolio
     url:               /portfolio/
   - title:             Blog
-    url:               /News/
+    url:               /blog/
   - title:             Data Challenges
     url:               /challenges/
   - title:             Other Work
@@ -86,7 +86,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         News/:num/
+paginate_path:         blog/:num/
 
 
 # Theme
