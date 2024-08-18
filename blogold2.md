@@ -1,6 +1,6 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: blog
+layout: page
 
 # The title of the tag's page.
 title: hello
@@ -19,4 +19,4 @@ slug: blog
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 ---
-
+hello
