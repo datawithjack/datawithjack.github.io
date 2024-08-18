@@ -8,4 +8,3 @@ hide_title: true
 <style>
   h1 { display: none; }
 </style>
-This is my blog.
