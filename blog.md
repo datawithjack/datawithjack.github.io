@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: blog-by-tag
 title: Blog
 slug: blog
 paginate: true
