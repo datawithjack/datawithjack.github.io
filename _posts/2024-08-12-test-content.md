@@ -7,7 +7,6 @@ sitemap: false
 image: /assets/img/blog/example-content-ii.jpg
 featured: true
 hide_last_modified: false
-categories: blog
 ---
 
 
