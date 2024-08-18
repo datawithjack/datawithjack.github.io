@@ -11,7 +11,7 @@ image:
     1920w: /assets/img/projects/cabezotestimage.png
     960w:  /assets/img/projects/cabezotestimage.png
     480w:  /assets/img/projects/cabezotestimage.png
-sitemap: false
+sitemap: true
 ---
-
+hello
 
