@@ -3,7 +3,7 @@ layout: list
 title: Blog
 slug: blog
 paginate: true
-hide_title: true
+posts_page: /blog/
 ---
 <style>
   h1 { display: none; }
