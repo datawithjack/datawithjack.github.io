@@ -7,7 +7,8 @@ projects_page: projects.md
 posts_page: /blog/
 featured: true
 ---
-### Lastest Blog Posts
+Here I aim to showcase my talents as data analyst.
+### Latest Blog Posts
 <!--posts-->
 
 ### Latest Projects
