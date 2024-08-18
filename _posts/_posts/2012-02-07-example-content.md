@@ -6,6 +6,7 @@ description: >
 date: 2012-02-07
 sitemap: false
 hide_last_modified: false
+excerpt_separator: <!--more-->
 categories: [powerbi, blog]
 ---
 
