@@ -3,11 +3,14 @@ layout: post
 title: Example Content
 description: >
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+date: 2024-08-18
 sitemap: false
 hide_last_modified: false
 categories: [powerbi, blog]
-
 ---
+
+
+
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
