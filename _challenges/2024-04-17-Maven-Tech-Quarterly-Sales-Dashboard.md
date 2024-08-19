@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Maven Tech Quarterly Sales Data Challenge
 image: /assets/img/challenges/maventechquarterlyreport1.jpg
 #accent_image: 
