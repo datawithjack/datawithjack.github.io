@@ -54,8 +54,6 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Hire Me!
-    url:               /hireme/
   - title:             Portfolio
     url:               /portfolio/
   - title:             Blog
