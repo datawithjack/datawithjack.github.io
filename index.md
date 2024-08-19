@@ -6,7 +6,6 @@ cover: true
 projects_page: projects.md
 posts_page: /blog/
 ---
-Here I aim to showcase my talents as data analyst.
 ### Latest Blog Posts
 <!--posts-->
 
