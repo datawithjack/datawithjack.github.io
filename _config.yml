@@ -319,6 +319,10 @@ collections:
     permalink:         /portfolio/:path/
     output:            true
 
+  challenges:
+    permalink:         /challenges/:path/
+    output:            true
+
 
 
 # File inclusion/exclusion
