@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Welcome to my Data Portfolio!
+title: Welcome to my site!
 sitemap: false
 cover: true
 projects_page: projects.md
