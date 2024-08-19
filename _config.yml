@@ -54,7 +54,7 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Portfolio
+  - title:             My Portfolio
     url:               /portfolio/
   - title:             Blog
     url:               /blog/
