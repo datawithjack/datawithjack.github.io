@@ -1,8 +1,6 @@
 ---
 layout: post
-title: BLOG TEST
-description: >
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+title: Highlighting Periods on Line Chart (Lego Challenge Entry)
 sitemap: true
 image: /assets/img/blog/example-content-ii.jpg
 featured: true
