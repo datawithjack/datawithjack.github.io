@@ -4,6 +4,7 @@ title: Highlighting Periods on Line Chart (Lego Challenge Entry)
 sitemap: true
 image: /assets/img/blog/example-content-ii.jpg
 featured: true
+categories: [powerbi]
 no_link_title: false
 no_excerpt: false
 ---
