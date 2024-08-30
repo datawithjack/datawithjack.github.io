@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Welcome to my Blog!
+title: Welcome to my Blog
+image: /assets/img/blog/welcome.jpg
 no_link_title: false
 ---
 
