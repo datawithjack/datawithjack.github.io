@@ -3,11 +3,11 @@ layout: project
 title: Maven Lego Challenge
 date: 01 Feb 2024
 image: /assets/img/challenges/80sscreenshot.JPG
-#accent_image: 
+# accent_image: 
 #  background: url('/assets/img/blog/jj-ying.jpg') center/cover
 #  overlay: false
-accent_color: '#ccc'
-theme_color: '#ccc'
+# accent_color: '#ccc'
+# theme_color: '#ccc'
 description: >
   Winning entry to the Feb 2024 Maven Analytics Data Visualisation Challenge.
 invert_sidebar: false
