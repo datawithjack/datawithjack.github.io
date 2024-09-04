@@ -18,9 +18,11 @@ Below is my winning entry to the February 2024 Maven Analytics Lego Challenge.
 <iframe title="Maven Analytics Lego Challenge FINAL5" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZTY1OTBkZjAtYjRiNC00YTk2LWFhYjctMmY5ZWY3M2E2Y2I4IiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
-### Project Report: Exploration of LEGO Minifigure Evolution
+## Project Report: Exploration of LEGO Minifigure Evolution
 
-**Objective:** This project aimed to explore the history and evolution of LEGO minifigures, tracing their growth and development over the years. The analysis focused on understanding trends in minifigure inclusion in LEGO sets, changes in design and diversity, and the impact of market and consumer preferences on LEGO's minifigure strategy.
+### Objective:
+
+This project aimed to explore the history and evolution of LEGO minifigures, tracing their growth and development over the years. The analysis focused on understanding trends in minifigure inclusion in LEGO sets, changes in design and diversity, and the impact of market and consumer preferences on LEGO's minifigure strategy.
 
 ### Methodology:
 
