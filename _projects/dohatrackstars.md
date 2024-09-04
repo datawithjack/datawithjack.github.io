@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Doha Track Star Speed Report
+title: Doha Track Stars Speed Report
 image: /assets/img/portfolio/dohatrackstartscreenshot1.PNG
 date: 01 May 2024
 # accent_image: 
@@ -14,7 +14,7 @@ invert_sidebar: false
 categories: [powerbi, portfolio]
 tags:       [dax]
 ---
-
+# Athlete Performance Monitoring: Doha Track Stars Speed Report
 ### Introduction
 The purpose of this report is to assist the coach of Doha Track Stars in tracking and analyzing the split times of athletes, collected during training and competition. The report is designed to provide insights into athlete performance, enabling the coach to monitor progress, identify trends, and manage athlete fatigue effectively.
 
