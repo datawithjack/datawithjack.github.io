@@ -8,7 +8,7 @@ image: /assets/img/portfolio/trips_screenshot1.jpg
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >
-  A report exploring the people, places and organisations of The Rest is Politics podcast using the Spotify API.
+  Exploring the people, places and organisations of The Rest is Politics podcast using the Spotify API.
 invert_sidebar: false
 sitemap: false
 date: 2024-05-01
