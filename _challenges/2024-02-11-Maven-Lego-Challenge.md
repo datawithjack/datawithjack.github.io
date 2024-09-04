@@ -13,7 +13,7 @@ description: >
 invert_sidebar: false
 ---
 
-Below is my winning entry to the February 2024 Maven Analytics Lego Challenge.
+Below is my winning entry to the February 2024 Maven Analytics Lego Challenge. To find out more about the Maven Analytics Lego Challenge [here](https://mavenanalytics.io/challenges/maven-lego-challenge/1ccd508c-4cee-403a-baed-cd98dcdab715).
 
 <iframe title="Maven Analytics Lego Challenge FINAL5" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZTY1OTBkZjAtYjRiNC00YTk2LWFhYjctMmY5ZWY3M2E2Y2I4IiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
