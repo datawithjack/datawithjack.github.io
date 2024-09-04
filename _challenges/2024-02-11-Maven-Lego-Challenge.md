@@ -26,16 +26,16 @@ This project aimed to explore the history and evolution of LEGO minifigures, tra
 
 ### Methodology:
 
-1. Data Collection and Initial Analysis with Excel:
+**1. Data Collection and Initial Analysis with Excel:**
 A comprehensive dataset of LEGO sets was provided for this challenge, including details on the year of release, theme, number of pieces, and minifigures.
 Preliminary exploratory data analysis (EDA) was conducted using Excel. This phase involved filtering, sorting, and basic statistical analysis to identify initial trends and patterns in the data, particularly focusing on the frequency and characteristics of minifigures in the sets.
 
-2. Advanced Visualization with Power BI:
+**2. Advanced Visualization with Power BI:**
 The cleaned and structured dataset from Excel was imported into Power BI.
 Advanced visualizations were created to illustrate the evolution of LEGO minifigures. These included time-series analyses showing the growth in the number of minifigures, thematic comparisons, and the relationship between set complexity and minifigure inclusion.
 Interactive elements were incorporated to allow dynamic exploration of the data, such as filtering by year, theme, or set complexity.
 
-3. Supplementary Internet Research:
+**3. Supplementary Internet Research:**
 Additional research was conducted via the Internet to augment the data analysis. This research provided context on key milestones in LEGO minifigure history, such as the introduction of the modern minifigure in 1978, the expansion of themed and licensed sets in the 2000s, and recent trends towards increased diversity and character-driven sets.
 This qualitative information was crucial in interpreting the data trends and provided a narrative to the story of LEGO minifigures.
 
