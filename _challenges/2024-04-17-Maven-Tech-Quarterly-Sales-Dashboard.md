@@ -2,7 +2,7 @@
 layout: project
 title: Maven Tech Quarterly Sales Data Challenge
 image: /assets/img/challenges/maventechquarterlyreport1.jpg
-date:        2 Jan 2014
+date:        17 Apr 2024
 #accent_image: 
 #  background: url('/assets/img/blog/jj-ying.jpg') center/cover
 #  overlay: false
@@ -12,6 +12,7 @@ description: >
   Entry to the April 2024 Maven Analytics Data Visualisation Challenge.
 invert_sidebar: false
 ---
+### Maven Tech Quarterly Sales Data
 
 ### Project Brief:
 
