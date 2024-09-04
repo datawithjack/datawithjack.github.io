@@ -41,11 +41,11 @@ This qualitative information was crucial in interpreting the data trends and pro
 
 ### Findings
 
-**Growth Trends:** A significant increase in minifigures per set was observed, especially post-2000, coinciding with LEGO's strategic shift towards licensed themes and character-driven sets.
+* **Growth Trends:** A significant increase in minifigures per set was observed, especially post-2000, coinciding with LEGO's strategic shift towards licensed themes and character-driven sets.
 
-**Theme and Design Evolution:** Changes in minifigure design and variety were closely tied to introducing new themes, especially licensed franchises.
+* **Theme and Design Evolution:** Changes in minifigure design and variety were closely tied to introducing new themes, especially licensed franchises.
 
-**Market Influence:** Consumer preferences and the collector's market appeared to significantly influence LEGO's minifigure strategy, evident from the introduction of the Collectible Minifigures series and increased diversity in minifigure representation.
+* **Market Influence:** Consumer preferences and the collector's market appeared to significantly influence LEGO's minifigure strategy, evident from the introduction of the Collectible Minifigures series and increased diversity in minifigure representation.
 
 ### Conclusion
 
