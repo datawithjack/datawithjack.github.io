@@ -36,7 +36,6 @@ Data for this report is gathered by the assistant coach through an Excel workshe
 
 ### Benefits to the Coach
 - **Monitoring Fatigue**: By observing the momentum lines on the KPI cards, the coach can detect early signs of fatigue and make informed decisions on training intensity and recovery periods which is especially important when leading up to competition.
-- 
 - **Comparative Analysis**: The detailed breakdown of best runs allows the coach to evaluate the effectiveness of training strategies and identify areas for improvement.
 
 ### Conclusion
