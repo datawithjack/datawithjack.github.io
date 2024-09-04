@@ -6,4 +6,4 @@ show_collection: portfolio
 #  This is my data portfolio. Showcasing my work as a data analyst.
 no_groups: true
 ---
-This is my data portfolio. A selection of projects I have worked on designed to showcase my skills.
+This is my data portfolio- a selection of projects I have worked on designed to showcase my skills.
