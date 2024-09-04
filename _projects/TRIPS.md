@@ -1,6 +1,6 @@
 ---
 layout: project
-title: The Rest is Politics- - People, Places & Organisations
+title: The Rest is Politics- People, Places & Organisations
 image: /assets/img/portfolio/trips_screenshot1.jpg
 # accent_image: 
 #  background: url('/assets/img/blog/jj-ying.jpg') center/cover
@@ -14,7 +14,7 @@ sitemap: false
 date: 2024-05-01
 categories: [portfolio, powerbi]
 ---
-## The Rest is Politics- - People, Places & Organisations
+## The Rest is Politics- People, Places & Organisations
 
 ### Introduction:
 
