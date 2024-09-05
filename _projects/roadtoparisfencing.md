@@ -10,8 +10,12 @@ sitemap: false
 ---
 ## Fencing Qualification Dashboard for the 2024 Olympic Games
 
-### Overview
+* Project Overview
+* Fencing Qualification Process for the 2024 Olympics
 {:toc}
+
+### Project Overview
+
 The goal of this project was to build a Power BI dashboard that tracks and displays the qualification process for the 2024 Olympic Games in fencing. With the Olympics now underway, I’ve updated the report to reflect the qualification progress throughout the entire qualification period. The dashboard provides users with a comprehensive view of the qualification standings, including the following key insights:
 
 - **Current Rankings After Each Event**: The dashboard tracks and updates rankings after every qualifying event.
@@ -20,7 +24,7 @@ The goal of this project was to build a Power BI dashboard that tracks and displ
 
 
 
-### Overview of the Fencing Qualification Process for the 2024 Olympics
+### Fencing Qualification Process for the 2024 Olympics
 
 The qualification for the Paris 2024 Olympics in fencing is divided across six categories: Men’s and Women’s Épée, Sabre, and Foil. Qualification is determined through both **team** and **individual** pathways, with specific rules to ensure global representation.
 
