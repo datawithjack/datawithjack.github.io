@@ -35,7 +35,9 @@ The tool delivers several key benefits for the organization, including:
 The dashboard allows coaches to quickly visualize and compare squad performance metrics, while the PDF reports offer a detailed summary of each athlete’s progression. Both tools ensure that the coaches have the necessary information to guide training and monitor athlete development effectively.
 
 ### Dashboard and Report Screenshots
-![PDF Report](assets/img/projects/evo-testing-report.JPG)
+Below are some screenshots from both the dashboard and the individual athlete report.
+
+![PDF Report](https://raw.githubusercontent.com/datawithjack/datawithjack.github.io/main/assets/img/projects/evo-testing-report.jpg)
 Athlete End of Term PDF Report.
 {:.figcaption}
 
