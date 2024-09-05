@@ -39,7 +39,7 @@ The dashboard allows coaches to quickly visualize and compare squad performance 
 Athlete End of Term PDF Report.
 {:.figcaption}
 
-![Squad Dashboard](assets/img/projects/evo-testing-dashboard.jpg)
+![Squad Dashboard](https://github.com/datawithjack/datawithjack.github.io/blob/814a00f6484b1d42291666db53c2dc0c82b9d96c/assets/img/projects/evo-testing-dashboard.jpg)
 Squad Dashboard in Google Sheets.
 {:.figcaption}
 
