@@ -38,13 +38,13 @@ This process ensures that the best fencers from around the world, across various
 
 For more detailed and official qualification criteria, please refer to the official document provided by FIE: [Official Qualification Criteria for Paris 2024 – Fencing](https://static.fie.org/uploads/28/140899-Olympic%20Games%20Paris%202024%20qualification%20system%20-%20Fencing%20-%20English.pdf).
 
-## Challenges
+### Challenges
 
 The biggest challenge in this project was data quality. The data needed extensive cleaning to resolve inconsistencies, missing entries, and formatting errors that could affect the accuracy of the dashboard. Ensuring that the data was updated in real-time was also a challenge, as some of the qualification events were held in quick succession.
 
 Another significant challenge was implementing the complex logic for the qualification process. Each fencing category had its own set of rules for both team and individual qualification, and the logic had to account for multiple layers such as continental quotas, individual rankings, and zonal tournaments. This required careful use of advanced DAX formulas and a clear understanding of the qualification rules to ensure the dashboard accurately reflected the current standings.
 
-## Skills Developed
+### Skills Developed
 
 During this project, I developed the following skills:
 
