@@ -8,11 +8,14 @@ date: '01-09-2023'
 image: /assets/img/projects/fencingtest.jpg
 sitemap: false
 ---
+
 ## Fencing Qualification Dashboard for the 2024 Olympic Games
 
-* Project Overview
-* Fencing Qualification Process for the 2024 Olympics
-{:toc}
+### Table of Contents
+1. [Project Overview](#project-overview)
+2. [Fencing Qualification Process for the 2024 Olympics](#fencing-qualification-process-for-the-2024-olympics)
+3. [Challenges](#challenges)
+4. [Skills Developed](#skills-developed)
 
 ### Project Overview
 
@@ -21,8 +24,6 @@ The goal of this project was to build a Power BI dashboard that tracks and displ
 - **Current Rankings After Each Event**: The dashboard tracks and updates rankings after every qualifying event.
 - **Athletes in Qualification Positions**: It highlights athletes who have secured a place for the 2024 Olympics.
 - **Athletes in Contention**: It also tracks athletes who are on the cusp of qualification and still have a chance to qualify.
-
-
 
 ### Fencing Qualification Process for the 2024 Olympics
 
@@ -56,4 +57,3 @@ During this project, I developed the following skills:
 
 - **Advanced DAX**: Used to apply complex logic and conditionally format values in matrix visuals based on qualification rules.
 - **Data Cleaning in M Query**: Ensured that the data was properly structured, consistent, and ready for analysis by resolving formatting issues and filling in missing data.
-
