@@ -10,6 +10,8 @@ sitemap: false
 ---
 ## Fencing Qualification Dashboard for the 2024 Olympic Games
 
+### Overview
+{:toc}
 The goal of this project was to build a Power BI dashboard that tracks and displays the qualification process for the 2024 Olympic Games in fencing. With the Olympics now underway, I’ve updated the report to reflect the qualification progress throughout the entire qualification period. The dashboard provides users with a comprehensive view of the qualification standings, including the following key insights:
 
 - **Current Rankings After Each Event**: The dashboard tracks and updates rankings after every qualifying event.
