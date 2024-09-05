@@ -47,7 +47,7 @@ For more detailed and official qualification criteria, please refer to the offic
 
 ### Challenges
 
-The biggest challenge in this project was data quality. The data needed extensive cleaning to resolve inconsistencies, missing entries, and formatting errors that could affect the accuracy of the dashboard. Ensuring that the data was updated in real-time was also a challenge, as some of the qualification events were held in quick succession.
+The biggest challenge in this project was data quality. The data needed extensive cleaning to resolve inconsistencies, missing entries, and formatting errors that could affect the accuracy of the dashboard.
 
 Another significant challenge was implementing the complex logic for the qualification process. Each fencing category had its own set of rules for both team and individual qualification, and the logic had to account for multiple layers such as continental quotas, individual rankings, and zonal tournaments. This required careful use of advanced DAX formulas and a clear understanding of the qualification rules to ensure the dashboard accurately reflected the current standings.
 
