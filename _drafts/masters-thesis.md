@@ -1,6 +1,6 @@
 ---
 layout: post
-title: High Jump Performance Predictions
+title: Masters Thesis
 description: >
   A page showing Hydejack-specific markdown content.
 image: /assets/img/blog/example-content-iii.jpg
@@ -9,11 +9,22 @@ sitemap: false
 
 # From Simple Linear Regression to Linear Mixed Models: Enhancing High Jump Performance Predictions
 
-In the realm of athletic performance, particularly in events like the high jump, predicting future success is a challenge that has long intrigued coaches and statisticians alike. My recent master's thesis delves into this very topic, exploring how statistical models can be used to predict high jump performance over time, starting with simple linear regression and advancing to more sophisticated linear mixed models (LMMs).
+In the realm of athletic performance, particularly in events like the high jump, predicting future success is a challenge that has long intrigued coaches and statisticians alike. My master's thesis delves into this very topic, exploring how statistical models can be used to predict high jump performance over time, starting with simple linear regression and advancing to more sophisticated linear mixed models (LMMs).
 
 ## The Journey Begins: Simple Linear Regression
 
-The journey started with the basics—simple linear regression. This model is straightforward, where the relationship between an athlete's age and their high jump performance is assumed to be linear. While this method offers a clear and interpretable relationship, it falls short in capturing the complexities of real-world data. Specifically, high jump performance does not follow a strict linear trend as athletes age; instead, it varies in a more complex, non-linear fashion.
+The journey started with the basics—simple linear regression. This model is straightforward, where (quite naively) the relationship between an athlete's age and their high jump performance is assumed to be linear. While this method offers a clear and interpretable relationship, it falls short of capturing real-world complexities. Specifically, high jump performance (like many paths in life) does not follow a strict linear trend with athletes age; instead, it varies in a more complex, non-linear fashion.
+
+## EDA
+
+The most important findings of the EDA were:
+•	Repeated measurements – some athletes have multiple observations (performances) over time.
+•	A non-linear relationship is evident between age and performance.
+•	Hierarchical structures are present - Athletes within countries, Athletes within Competitions, Competitions within Seasons.
+•	The High Jump Performance response variable is left skewed.
+•	The explanatory variable age is right-skewed.
+
+you can view the shiny app i created here. 
 
 ## A Need for Complexity: Moving Beyond Linear Regression
 
@@ -35,4 +46,8 @@ The final model, a linear mixed model with B-splines at both the fixed and rando
 
 This progression from simple linear regression to linear mixed models illustrates the importance of choosing the right statistical tools for the job. While simple models provide a good starting point, real-world data often demands more sophisticated approaches. In the case of high jump performance, linear mixed models offered the flexibility and precision needed to make meaningful predictions, potentially aiding coaches and athletic organizations in identifying and nurturing future stars.
 
+Add photo of some young high jumper...definitely not me 
+
+
+[Download the PDF](https://raw.githubusercontent.com/your-username/your-repository/main/path-to-your-file.pdf)
 If you so wish you can read my full thesis here....
