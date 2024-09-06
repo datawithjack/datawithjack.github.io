@@ -9,7 +9,7 @@ sitemap: false
 
 # Different Slopes for Different Folks: Using Linear Mixed Models to Prediction High Jump Performance
 
-In athletics, predicting future performance (and ultimately success) is a challenge that has long intrigued athletes, coaches, national federations and statisticians alike. My master's thesis delved into this very topic, exploring how statistical models, namely linear mixed models (LMMs), can be used to (attempt to) predict high jump performance over time.
+In athletics, predicting future performance (and ultimately success) is a challenge that has long intrigued athletes, coaches, national federations and statisticians alike. My master's thesis delved into this very topic, exploring how statistical models, namely linear mixed models (LMMs), can be used to predict high jump performance over time.
 
 The following article aims to give a brief overview of how and why I applied a linear mixed model to the problem of predicting high jump performance in youth athletes and the iterative approach I took to finding and slecting the best model.
 
@@ -28,7 +28,10 @@ The most important findings of the EDA were:
 * A **non-linear relationship** is evident between age and performance.
 * **Hierarchical structures** are present - Athletes within countries, Athletes within Competitions, Competitions within Seasons.
 
-
+![EDA](https://raw.githubusercontent.com/datawithjack/datawithjack.github.io/main/assets/img/blog/eda-chart.jpg)
+Non-linear relationship between age and performance (left) and repeated measurements per athlete (right).
+{:.figcaption}
+ 
 
 ## Selecting an a Modelling Approach
 
