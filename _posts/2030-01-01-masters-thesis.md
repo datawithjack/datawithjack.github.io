@@ -3,7 +3,7 @@ layout: post
 title: Masters Thesis
 description: >
   A page showing Hydejack-specific markdown content.
-image: /assets/img/blog/example-content-iii.jpg
+image: assets/img/blog/high-jump-blog-cover.jpg
 sitemap: false
 ---
 
@@ -11,7 +11,7 @@ sitemap: false
 
 In athletics, predicting future performance (and ultimately success) is a challenge that has long intrigued athletes, coaches, national federations and statisticians alike. My master's thesis delved into this very topic, exploring how statistical models, namely linear mixed models (LMMs), can be used to predict high jump performance over time.
 
-The following article aims to give a brief overview of how and why I applied a linear mixed model to the problem of predicting high jump performance in youth athletes and the iterative approach I took to finding and slecting the best model.
+The following article aims to give a brief overview of how and why I applied a linear mixed model to the problem of predicting high jump performance in youth athletes and the iterative approach I took to finding and selecting the best model.
 
 If you want to read the full thesis you can download it [here](https://raw.githubusercontent.com/datawithjack/masters-thesis/main/Jack-Andrew-Masters-Thesis.pdf).
 
@@ -37,10 +37,15 @@ Non-linear relationship between age and performance (left) and repeated measurem
 
 ## Selecting a Modelling Approach
 
-All the findings from the EDA ruled out linear regression models and pointed towars the use linear mixed models
-Although this posed a challenge from a modelling perspective, all these technicalities can be accommodated nicely using the LMM framework.
+The findings from the EDA ruled out linear regression models (violations of independence) and pointed toward the use of linear mixed models. This method offered a flexible framework by which to model the sources of variation and correlation that arise from grouped data (5) and also allows for the inclusion of smoothing methods (such as splines) to model non-linear functional forms.
 
-The violations of independence rules out linear regression and opens the door to a LMM approach. This method offers a flexible framework by which to model the sources of variation and correlation that arise from grouped data (5) and also allows for the inclusion of smoothing methods (such as splines) to model non-linear functional forms.
+## An Overview of LMMs
+
+I will try and keep this 
+
+if you'e interested in some more of the math take a look at look at my these
+
+
 
 LMM’s are an extension of a general linear model (GLM). 
 
