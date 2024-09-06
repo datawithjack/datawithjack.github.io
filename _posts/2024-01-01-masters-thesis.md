@@ -3,7 +3,7 @@ layout: post
 title: Masters Thesis
 description: >
   A page showing Hydejack-specific markdown content.
-image: assets/img/blog/high-jump-blog-cover2.jpg
+image: assets/img/blog/high-jump-blog-cover.jpg
 sitemap: false
 ---
 
