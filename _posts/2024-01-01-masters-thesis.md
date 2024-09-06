@@ -9,6 +9,8 @@ sitemap: false
 
 # Different Slopes for Different Folks: Using Linear Mixed Models to Prediction High Jump Performance
 
+add TOC
+### Introduction
 In athletics, predicting future performance (and ultimately success) is a challenge that has long intrigued athletes, coaches, national federations and statisticians alike. My master's thesis delved into this very topic, exploring how statistical models, namely linear mixed models (LMMs), can be used to predict high jump performance over time.
 
 The following article aims to give a brief overview of how and why I applied a linear mixed model to the problem of predicting high jump performance in youth athletes and the iterative approach I took to finding and selecting the best model.
@@ -62,35 +64,64 @@ Schielzeth, H., & Forstmeier, W. (2009). Fitting linear mixed models.
 
 If you're interested in some more of the details behind LMMs please take a look at look at my thesis.
 
+#### Handling Non Linearity
+
+This chapter explores different methods to model non-linear relationships in data, focusing on how age affects athletic performance. We start with simple methods like polynomial regression and step functions, but these have limitations. Therefore, more advanced methods like splines are introduced, which are better at fitting complex, non-linear data.
+
+Since testing all these methods on the entire dataset would be very time-consuming, a random sample of 50 athletes was used to investigate different smoothing methods, starting with age as the key factor influencing performance.
+
+Polynomial Regression: This method extends regular linear models by adding powers of age (like age² or age³) to the model. It helps capture non-linear patterns. In this case, both second-degree and third-degree polynomial models were tested, but neither fit the data perfectly, as shown by the R² values (which indicate how well the model explains the data). The third-degree polynomial did slightly better but still wasn’t great.
+
+Step Functions: This method breaks age into different ranges (or “bins”) and assumes performance stays constant within each range, which is unrealistic. While step functions aren't suitable for modeling athletic performance, they do introduce the idea of breaking up data into sections, which is useful in more advanced smoothing techniques.
+
+Splines: These are a more flexible way to model non-linear data. Splines essentially "stitch" together small curves (with constraints to keep them smooth) to fit the data better. A specific type of spline called B-splines was used, which place more knots (or change points) where the data varies more rapidly and fewer knots where it is stable. This allows for a smoother and more realistic fit compared to polynomial regression.
+
+Different types of splines were compared, including:
+
+B-splines: Showed a good fit, especially when using 3 degrees of freedom, meaning only a few knots were needed to capture changes in performance accurately.
+Natural Splines: These are similar to B-splines but with added constraints that ensure the model behaves better at the boundaries of the data. This made the fit look more realistic, especially when there were fewer data points.
+P-splines: This type adds a penalty to prevent the model from overfitting (capturing too much noise in the data). While effective, P-splines were harder to implement compared to B- and natural splines, so they were not used in the final analysis.
+In the end, B-splines and natural splines (with around 3 degrees of freedom) gave the most realistic fits to the data, based on both statistical analysis and knowledge of sports performance. The choice of which smoothing method to use depends on both how the data behaves and the ease of implementation.
+
+Visual Comparisons: Throughout the chapter, various graphs show how each method fits the data. Polynomial regression struggled to handle rapid changes, while splines, especially B-splines and natural splines, provided much smoother and more accurate representations of performance changes over time.
+
+
+### Workflow
+
+When comparing models of increasing complexity it has been recommended by Gelman (15) that simple linear models are fitted initially and then adapted to generate more complex models (according to some goodness-of-fit criterion) with this process repeated until no further improvements were evident. 
+Given the aims of this research, age will be the fixed effect component and the remaining covariates used to explain the underlying variance structures.
+The following 9 models (written symbolically) were fitted sequentially to model the relationship between the (fixed) covariate Age and the response variable of interest, namely Performance:
+	Simple Linear Regression:
+Performance ~ Age
+	Multiple Linear Regression:
+Performance ~ Age + ID + Country + Year + Event + Venue
+	LMM with one random intercept:
+Performance ~ Age + (1|ID)
+	LMM with random intercept and natural spline smoothing:
+Performance ~ ns(Age, df = 3) + (1|ID)
+	LMM with random intercept and B-spline smoothing:
+Performance ~ bs(Age, df = 3) + (1|ID)
+	LMM with random intercept and polynomial smoothing:
+Performance ~ poly(Age, df = 3) + (1|ID)
+	LMM with B-spline smoothing and hierarchical structure on Country:Athlete as a random intercept:
+Performance ~ bs(Age, df = 3) + (1| ID:Country)
+	LMM with hierarchical structure and additional B-spline at random effect level:
+Performance ~ bs(Age, df = 3) + (bs(Age, df = 3)| ID:Country)
+	LMM with additional random effects:
+Performance ~ bs(Age, df = 3) + (1|Venue) + (1|Year) + (1|Country) + (bs(Age, df = 3)| ID:Country)
+
+All LMM’s were fitted using the lmer function of the lme4 R package (16). The lme4 package default output for LMM’s provides t-values but no p-values. The primary motivation for this omission is that in LMM’s it is not at all obvious what the appropriate denominator degrees of freedom to use are, except perhaps for some simple designs and nicely balanced data (17). In this project, significance of LMM’s were calculated using the lmerTest package (18). Prediction intervals from the LMM’s were obtained using the ‘predictInterval’ function from the merTools package (19). R^2 values for LMMs were estimated using the MuMin package (20).
+
 
 ## Building my Model
 
 
+QUOTE TEXT
 
+Validating the assumptions is arguably more important in this thesis than predictive accuracy given the main aim is to develop a model to gain insight into how performance is related to increasing age.what does this mean? Validating the assumptions is arguably more important in this thesis than predictive accuracy given the main aim is to develop a model to gain insight into how performance is related to increasing age.
 
-## The Journey Begins: Simple Linear Regression
+This sentence means that in this thesis, it's more important to ensure that the underlying assumptions of the model are correct than to focus solely on how well the model predicts performance. The goal is not just to make accurate predictions but to understand the relationship between performance and age. If the model's assumptions (like how variables behave or interact) are valid, the insights gained from the model will be reliable and meaningful, even if the model isn’t perfect at making predictions. Essentially, understanding the "why" behind the data is the priority over just getting the "right" answer.
 
-The journey started with the basics—simple linear regression. This model is straightforward, where (quite naively) the relationship between an athlete's age and their high jump performance is assumed to be linear. While this method offers a clear and interpretable relationship, it falls short of capturing real-world complexities. Specifically, high jump performance (like many paths in life) does not follow a strict linear trend with athletes age; instead, it varies in a more complex, non-linear fashion.
-
-## A Need for Complexity: Moving Beyond Linear Regression
-
-Recognizing the limitations of simple linear regression, I explored more advanced methods that could accommodate the non-linear nature of the data. Polynomial regression offered a step forward by introducing non-linearity, yet it still imposed global structures that weren’t entirely realistic for every athlete.
-
-This led to the exploration of smoothing techniques, like splines, which allow for more flexibility in modeling performance over time. However, even these methods had limitations when applied in a standard linear model framework.
-
-## The Leap to Linear Mixed Models
-
-The real breakthrough came with the introduction of Linear Mixed Models (LMMs). Unlike simple linear regression, LMMs can account for the hierarchical structure in the data—athletes nested within countries, repeated measures over time, and varying performance trends across different groups.
-
-LMMs also allow for the inclusion of both fixed and random effects. In this case, age was treated as a fixed effect, while individual differences between athletes (random effects) were accounted for by including athlete-specific intercepts and slopes. Moreover, by incorporating splines within the LMM framework, the model could effectively handle the non-linear relationship between age and performance, capturing the nuances in each athlete’s progression.
-
-## The Result: A Robust Predictive Model
-
-The final model, a linear mixed model with B-splines at both the fixed and random effect levels, provided a much more accurate and nuanced understanding of high jump performance. It successfully accounted for the non-linear progression of athletes and the variability within and between different groups, making it a powerful tool for predicting future performance.
-
-## Conclusion
-
-This progression from simple linear regression to linear mixed models illustrates the importance of choosing the right statistical tools for the job. While simple models provide a good starting point, real-world data often demands more sophisticated approaches. In the case of high jump performance, linear mixed models offered the flexibility and precision needed to make meaningful predictions, potentially aiding coaches and athletic organizations in identifying and nurturing future stars.
 
 something about the application of linear mixed models into other real world examples
 
@@ -98,5 +129,5 @@ Add photo of some young high jumper...definitely not me
 
 # other modelling approaches
 machien learning
-
+excited to applicatiosn fo LMMs to swimming results, 
 
