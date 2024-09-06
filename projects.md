@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Other Projects
+title: All Projects
 show_collection: projects
 no_groups: false
 ---
