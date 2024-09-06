@@ -3,7 +3,7 @@ layout: post
 title: Masters Thesis
 description: >
   A page showing Hydejack-specific markdown content.
-image: assets/img/blog/high-jump-blog-cover.jpg
+image: assets/img/blog/high-jump-blog-cover2.jpg
 sitemap: false
 ---
 
@@ -41,29 +41,26 @@ The findings from the EDA ruled out linear regression models (violations of inde
 
 ## An Overview of LMMs
 
-I will try and keep this 
-
-if you'e interested in some more of the math take a look at look at my these
+Linear mixed models (LMMs) build on general linear models (GLMs), which themselves are an extension of simple linear regression. LMMs can be split into two parts- a 'fixed effects' part and a 'random effects' part. 
 
 
+The “fixed effects” part of the model focuses on the variables of direct interest, which in my case was age. However, the dataset also includes other variables like venue, country, and year. Even though we aren't particularly interested in these variables, LMMs can still take them into account by focusing on the overall variation they explain, rather than figuring out their specific effects.
 
-LMM’s are an extension of a general linear model (GLM). 
+In a regular GLM, you’d need to add these extra variables as fixed effects, which would take up more "degrees of freedom"— a resource that's valuable for ensuring the accuracy of your model. LMMs allow you to include these extra variables more efficiently as random effects, helping explain the variance in your data without using up as many degrees of freedom. This leaves the model with more power to focus on the main variable you're interested in— age.
 
-The fixed effect part of the model contains the covariates of direct interest which, in this thesis, is the variable age. However, the dataset is rich and contained other fields such as venue, country, and year.  Whilst the estimated effect of these covariates is not of primary interest, the LMM approach allows for the effect of these covariates on the response to be accounted for by focusing purely on the variance they explain rather than on estimating their individual level effects.
-In a general linear model these covariates would have to be added in as fixed effects which use up valuable degrees of freedom. The random effects part of the LMM gives the opportunity to include additional covariates to help explain the variance structure whilst using less degrees of freedom than estimating the effects of each covariate as a fixed effect.  This translates to less degrees of freedom being ‘spent’ in estimating unnecessary effects leaving the model with more power to test the covariate(s) of interested (age).
-Random effects can be included in a LMM as either random intercepts or random slopes. Random intercepts account for variation where individuals are sampled repeatedly such athlete’s performance over time and random slopes account for variation in group responses or ‘within individual’ variation such as athletes from different countries improving at different rates.  An adjustment can be made to the model depending on whether the random effects are correlated (e.g., an intercept and a slope) or are independent (e.g., no relationship between an intercept and slope).
-The EDA demonstrated that athletes had repeated measurements over time and that athletes from different countries improve at different rates suggesting both random intercepts (i.e., athlete within country) and random slopes (i.e., performance as age increases over time) are required.
-To capture these effects in a linear regression model an interaction term would have to be included. For example, given the number of athletes in the dataset, the number of parameters used by this model would be excessively high especially considering that the direct effect of athlete/country is not of interest but rather how much of the variability in performance can be attributed to this.
-If there is any between country variation or an age by country interaction then these terms cannot be ignored because systematic variation would end up in the residuals causing a potentially biased inference. To estimate model degrees of freedom more efficiently, a mixed effects model with a random intercept and a random slope can be applied.
-Shielzeth and Forstmeier 2009 (7) suggest to always include both random slopes and intercepts when possible. Incorporating random intercepts and slopes collectively reduces the incidence of Type 1 and Type 2 errors and reduces the chance of overconfident estimates (unrealistically low standard error). However fitting random slopes requires relatively large sample sizes for model convergence, especially if the data set contains many groups with only a few observations (8). The dataset used in this thesis is large and therefore it is unlikely that convergence will be a problem.
-Given the above, LMM’s are an attractive solution to model both the hierarchical structure present in the data and the serial correlation in each athlete’s performance over time by incorporating a random effect in order to model each athlete’s serial correlation in a flexible way (6).
+Random effects in LMMs can be set up in two ways: random intercepts and random slopes. Random intercepts deal with variation when individuals (like athletes) are measured multiple times, and random slopes allow for differences between groups (like athletes from different countries) that might improve at different rates. You can also decide whether these effects (intercepts and slopes) are related or not.
 
+My exploratory data analysis (EDA) showed that athletes had multiple measurements over time and improved at different rates depending on their country. This suggested the need for both random intercepts (accounting for the athlete within each country) and random slopes (to capture how performance changes with age). If you didn’t use random effects and just used a regular linear model, you'd need a lot more parameters, which would make the model unnecessarily complicated. Plus, you'd risk overlooking important variations in the data, which could lead to biased results.
 
+To avoid this, using random intercepts and slopes in LMMs helps manage the complexity, reduces the chance of errors (like making wrong conclusions about the data), and prevents overconfidence in the results (like unrealistically low error estimates). However, fitting these random slopes requires a large dataset for the model to work properly. Fortunately, our your dataset was large so this wasn't a .
 
+In summary, LMMs are a powerful tool for handling complex data, like yours, by accounting for both the hierarchical structure and repeated measurements over time (6).
 
+References:
 
+Schielzeth, H., & Forstmeier, W. (2009). Fitting linear mixed models.
 
-## A note on Linear Mixed Models
+If you're interested in some more of the details behind LMMs please take a look at look at my thesis.
 
 
 ## Building my Model
