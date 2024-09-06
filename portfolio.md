@@ -3,6 +3,9 @@ layout: welcome
 title: My Portfolio
 selected_projects:
   - _projects/TRIPS.md
+  - _projects/dohatrackstars.md
+  - _projects/roadtoparisfencing.md
+  - _projects/sportsacademyreport.md
 projects_page: projects.md
 featured: true
 ---
