@@ -9,26 +9,30 @@ sitemap: false
 
 # Different Slopes for Different Folks: Using Linear Mixed Models to Prediction High Jump Performance
 
-In the realm of athletic performance, particularly in events like the high jump, predicting future success is a challenge that has long intrigued coaches and statisticians alike. My master's thesis delved into this very topic, exploring how statistical models, namely linear mixed models (LMMs), can be used to predict high jump performance over time.
+In athletics, predicting future performance (and ultimately success) is a challenge that has long intrigued athletes, coaches, national federations and statisticians alike. My master's thesis delved into this very topic, exploring how statistical models, namely linear mixed models (LMMs), can be used to (attempt to) predict high jump performance over time.
 
-The following article aims to give a brief overview of how and why I applied a linear mixed model to the problem of predicting high jump performance in youth athletes. If you want to read the full thesis you can download it [here](https://raw.githubusercontent.com/datawithjack/masters-thesis/main/Jack-Andrew-Masters-Thesis.pdf).
+The following article aims to give a brief overview of how and why I applied a linear mixed model to the problem of predicting high jump performance in youth athletes and the iterative approach I took to finding and slecting the best model.
 
+If you want to read the full thesis you can download it [here](https://raw.githubusercontent.com/datawithjack/masters-thesis/main/Jack-Andrew-Masters-Thesis.pdf).
 
+## The Dataset
 
-## The Data
+The dataset consisted of high jump results from over 6000 athlete all of which had 10 or more performances. The major of the data was scraped from the [World Athletics](https://worldathletics.org/) website and the UK's [Power of 10](https://www.thepowerof10.info/) website. 
 
-## EDA
+## Exploratory Data Analysis (EDA)
 The most important findings of the EDA were:
-* Repeated measurements – some athletes have multiple observations (performances) over time.
-* A non-linear relationship is evident between age and performance.
-* Hierarchical structures are present - Athletes within countries, Athletes within Competitions, Competitions within Seasons.
-* The High Jump Performance response variable is left skewed.
-* The explanatory variable age is right-skewed.
+
+* **Repeated measurements** – some athletes have multiple observations (performances) over time.
+* A **non-linear relationship** is evident between age and performance.
+* **Hierarchical structures** are present - Athletes within countries, Athletes within Competitions, Competitions within Seasons.
 
 The R Shiny App I created here to explore the data is available here.
 
-NOTES:
-different slopes ofr differnet folks
+## Selecting an a Modelling Approach
+
+All the findings of the EDA pointed towards
+
+
 
 
 ## The Journey Begins: Simple Linear Regression
@@ -55,10 +59,11 @@ The final model, a linear mixed model with B-splines at both the fixed and rando
 
 This progression from simple linear regression to linear mixed models illustrates the importance of choosing the right statistical tools for the job. While simple models provide a good starting point, real-world data often demands more sophisticated approaches. In the case of high jump performance, linear mixed models offered the flexibility and precision needed to make meaningful predictions, potentially aiding coaches and athletic organizations in identifying and nurturing future stars.
 
-something about the application of linear mixed models into sports
+something about the application of linear mixed models into other real world examples
 
 Add photo of some young high jumper...definitely not me 
 
+# other modelling approaches
+machien learning
 
-[Download the PDF](https://raw.githubusercontent.com/your-username/your-repository/main/path-to-your-file.pdf)
-If you so wish you can read my full thesis here....
+
