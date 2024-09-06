@@ -3,7 +3,6 @@ layout: welcome
 title: My Portfolio
 selected_projects:
   - _projects/TRIPS.md
-  - /projects/hyde-v2/
 projects_page: projects.md
 featured: true
 no_groups: true
