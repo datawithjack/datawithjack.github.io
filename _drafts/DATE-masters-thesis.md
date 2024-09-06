@@ -20,17 +20,24 @@ If you want to read the full thesis you can download it [here](https://raw.githu
 The dataset consisted of high jump results from over 6000 athlete all of which had 10 or more performances. The major of the data was scraped from the [World Athletics](https://worldathletics.org/) website and the UK's [Power of 10](https://www.thepowerof10.info/) website. 
 
 ## Exploratory Data Analysis (EDA)
+An extensive exploratory data analysis was included building a R Shiny App (available [here]()) to explore the data.
+
 The most important findings of the EDA were:
 
 * **Repeated measurements** – some athletes have multiple observations (performances) over time.
 * A **non-linear relationship** is evident between age and performance.
 * **Hierarchical structures** are present - Athletes within countries, Athletes within Competitions, Competitions within Seasons.
 
-The R Shiny App I created here to explore the data is available here.
+
 
 ## Selecting an a Modelling Approach
 
-All the findings of the EDA pointed towards
+All the findings from the EDA ruled out linear regression models and pointed towars the use linear mixed models
+
+## A note on Linear Mixed Models
+
+
+## Building my Model
 
 
 
