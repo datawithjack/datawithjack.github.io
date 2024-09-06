@@ -19,6 +19,8 @@ If you want to read the full thesis you can download it [here](https://raw.githu
 
 The dataset consisted of high jump results from over 6000 athlete all of which had 10 or more performances. The major of the data was scraped from the [World Athletics](https://worldathletics.org/) website and the UK's [Power of 10](https://www.thepowerof10.info/) website. 
 
+for modelling Given the size of the data it is computationally (and time) expensive to use all the data to explore what an appropriate functional form might be.   For this reason, a (random) sample of 50 athletes with over 90 observations was used to investigate various smoothing methods using solely age as the predictor of performance. ...however eda wasconducted on all data,
+
 ## Exploratory Data Analysis (EDA)
 An extensive exploratory data analysis was included building a R Shiny App (available [here]()) to explore the data.
 
@@ -33,9 +35,28 @@ Non-linear relationship between age and performance (left) and repeated measurem
 {:.figcaption}
  
 
-## Selecting an a Modelling Approach
+## Selecting a Modelling Approach
 
 All the findings from the EDA ruled out linear regression models and pointed towars the use linear mixed models
+Although this posed a challenge from a modelling perspective, all these technicalities can be accommodated nicely using the LMM framework.
+
+The violations of independence rules out linear regression and opens the door to a LMM approach. This method offers a flexible framework by which to model the sources of variation and correlation that arise from grouped data (5) and also allows for the inclusion of smoothing methods (such as splines) to model non-linear functional forms.
+
+LMM’s are an extension of a general linear model (GLM). 
+
+The fixed effect part of the model contains the covariates of direct interest which, in this thesis, is the variable age. However, the dataset is rich and contained other fields such as venue, country, and year.  Whilst the estimated effect of these covariates is not of primary interest, the LMM approach allows for the effect of these covariates on the response to be accounted for by focusing purely on the variance they explain rather than on estimating their individual level effects.
+In a general linear model these covariates would have to be added in as fixed effects which use up valuable degrees of freedom. The random effects part of the LMM gives the opportunity to include additional covariates to help explain the variance structure whilst using less degrees of freedom than estimating the effects of each covariate as a fixed effect.  This translates to less degrees of freedom being ‘spent’ in estimating unnecessary effects leaving the model with more power to test the covariate(s) of interested (age).
+Random effects can be included in a LMM as either random intercepts or random slopes. Random intercepts account for variation where individuals are sampled repeatedly such athlete’s performance over time and random slopes account for variation in group responses or ‘within individual’ variation such as athletes from different countries improving at different rates.  An adjustment can be made to the model depending on whether the random effects are correlated (e.g., an intercept and a slope) or are independent (e.g., no relationship between an intercept and slope).
+The EDA demonstrated that athletes had repeated measurements over time and that athletes from different countries improve at different rates suggesting both random intercepts (i.e., athlete within country) and random slopes (i.e., performance as age increases over time) are required.
+To capture these effects in a linear regression model an interaction term would have to be included. For example, given the number of athletes in the dataset, the number of parameters used by this model would be excessively high especially considering that the direct effect of athlete/country is not of interest but rather how much of the variability in performance can be attributed to this.
+If there is any between country variation or an age by country interaction then these terms cannot be ignored because systematic variation would end up in the residuals causing a potentially biased inference. To estimate model degrees of freedom more efficiently, a mixed effects model with a random intercept and a random slope can be applied.
+Shielzeth and Forstmeier 2009 (7) suggest to always include both random slopes and intercepts when possible. Incorporating random intercepts and slopes collectively reduces the incidence of Type 1 and Type 2 errors and reduces the chance of overconfident estimates (unrealistically low standard error). However fitting random slopes requires relatively large sample sizes for model convergence, especially if the data set contains many groups with only a few observations (8). The dataset used in this thesis is large and therefore it is unlikely that convergence will be a problem.
+Given the above, LMM’s are an attractive solution to model both the hierarchical structure present in the data and the serial correlation in each athlete’s performance over time by incorporating a random effect in order to model each athlete’s serial correlation in a flexible way (6).
+
+
+
+
+
 
 ## A note on Linear Mixed Models
 
