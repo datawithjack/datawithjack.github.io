@@ -9,7 +9,6 @@ sitemap: false
 
 # Different Slopes for Different Folks: Using Linear Mixed Models to Prediction High Jump Performance
 
-add TOC
 ### Introduction
 In athletics, predicting future performance (and ultimately success) is a challenge that has long intrigued athletes, coaches, national federations and statisticians alike. My master's thesis delved into this very topic, exploring how statistical models, namely linear mixed models (LMMs), can be used to predict high jump performance over time.
 
