@@ -4,7 +4,7 @@ title: Ready to Turn Your Data into Action?
 ---
 Whether you need to create a brand new report, enhance existing dashboards, conduct in-depth data analysis, or fine-tune your data strategy, I’m here to help.
 
-### Client Testimonials
+<!-- ### Client Testimonials
 
 Here's what some of my clients have to say about working with me:
 
@@ -14,7 +14,7 @@ Here's what some of my clients have to say about working with me:
 
 > "This is something else nice about Jack"
 > ***Bob, CEO, SomeCompany***
-{:.lead}
+{:.lead} -->
 
 ### How It Works
 
