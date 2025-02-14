@@ -11,7 +11,7 @@ description: >
   Monitoring athlete readiness to trains using CMJ and adaptive ranges.
 invert_sidebar: false
 sitemap: false
-date: 2024-05-01
+date: 2025-01-15
 categories: [portfolio, powerbi]
 ---
 ## CMJ Adaptive Range Monitoring Dashboard
