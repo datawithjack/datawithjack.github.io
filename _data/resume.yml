@@ -1,117 +1,127 @@
 # If you have a `resume.json` file, copy it into `_data` and delete this file.
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
+
 basics:
   name: "Jack Andrew"
-  label: "Data Analyst"
+  label: "Data & Sports Analytics Professional"
   picture: "https://raw.githubusercontent.com/datawithjack/datawithjack.github.io/main/assets/img/jack_head_shot256.png"
   email: "jackfrankandrew@gmail.com"
-  phone: "+975 5597 9702"
+  phone: "+974 55979702"
   website: "https://datawithjack.github.io/"
   summary: >
-    Jack Andrew from United Kingdom.
-    He has earned degrees from the University of Manchester and the University of Galway.
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on data analyst, report building...,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely everything from ....windsurf, squash...
-    Open `_data/resume.yml` to edit this text.
+    A highly adaptable Data & Sports Analytics Professional with over 10 years of experience in data analytics and over 6 years in high-performance sports analytics.
+    Proven expertise in Power BI, Python, R, SQL, and Microsoft Fabric, with a track record of developing data-driven solutions for athlete performance, talent identification, and decision-making.
+    Experienced in benchmarking athlete performance, building predictive models, and leading data strategy implementation across elite sports organisations.
+    Former International Decathlete for Great Britain, bringing a unique athlete-centred perspective to performance analytics.
   location:
-    address: ""
-    postalCode: ""
     city: "Doha"
     countryCode: "Qatar"
-    region: ""
   profiles:
-#    - network: "Twitter"
-#      username: "RHendricksCEO"
-#      url: ""
     - network: "LinkedIn"
       username: "Jack Frank Andrew"
       url: "https://linkedin.com/in/jack-frank-andrew-3a957774"
+
 work:
   - company: "Aspire Academy"
     position: "Sports Insight Analyst"
     website: "https://www.aspire.qa/Home"
-    startDate: "2020-09-01"
+    startDate: "2021-08-01"
     endDate: ""
     summary: >
-      Aspire Academy is......
-    highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      Led the implementation of performance analytics tools for high-performance programs across multiple sports.
+      Designed interactive Power BI dashboards to provide insights to coaches, federations, and senior leadership.
+      Developed predictive analytics models to assess athlete potential, injury risk, and competition performance.
+      Scraped and analysed global rankings and competition results (World Athletics, International Fencing Federation) to benchmark athlete performance and to identity and monitor talent.
+      Provided real-time analytics and competitor analysis at major international events, including the Tokyo 2020 Olympics, 2023 Asian Games, and World U20 Athletics Championships, Peru.
+      Aspire representative at the following international conferences: 7th AISA Congress and XII ASPC Forum.
+      Assisted federations in developing data strategies to improve athlete service delivery.
   - company: "Aspire Academy"
     position: "Athlete Data Analyst"
     website: "https://www.aspire.qa/Home"
-    startDate: "2018-11-04"
-    endDate: "2020-09-01"
-#    summary: >
-#      Aspire Academy is......
-    highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-#volunteer:
-#  - organization: "CoderDojo"
-#    position: "Teacher"
-#    website: "https://coderdojo.com/"
-#    startDate: "2012-01-01"
-#    endDate: "2013-01-01"
-#    summary: "Global movement of free coding clubs for young people."
-#    highlights:
-#      - "Awarded 'Teacher of the Month'"
+    startDate: "2018-10-01"
+    endDate: "2021-08-01"
+    summary: >
+      Developed and managed the Athlete Management System (AMS), ensuring seamless data collection and integration.
+      Researched and tested sports technology solutions for performance tracking and monitoring.
+      Provided strategic data insights to high-performance coaches, guiding training programs and athlete development.
+  - company: "Royal College of Midwives"
+    position: "Data Analyst"
+    startDate: "2014-08-01"
+    endDate: "2018-10-01"
+    summary: >
+      Led the CRM data migration project, ensuring clean data transfer and process optimisation.
+      Built automated reporting systems using SQL, SharePoint, and Power BI.
+      Managed data governance, quality control, and analytics best practices.
+  - company: "Association of Colleges"
+    position: "Consultant Data Analyst"
+    startDate: "2014-05-01"
+    endDate: "2014-08-01"
+    summary: >
+      Conducted statistical analysis of national sports participation programs.
+      Built data pipelines for large-scale sentiment analysis on participant engagement.
+
 education:
   - institution: "University of Galway"
-    area: "Biostatistic"
+    area: "Biostatistics"
     studyType: "Masters"
     startDate: "2020-10-01"
     endDate: "2021-10-01"
-    #gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+    thesis: "Using Linear Mixed Effects Models to Model Performance in Male High Jumpers"
   - institution: "University of Manchester"
     area: "Mathematics"
     studyType: "Bachelors"
     startDate: "2010-09-01"
     endDate: "2013-06-01"
     gpa: "2:1"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-#publications:
-#  - name: "Video compression for 3d media"
-#    publisher: "Hooli"
-#    releaseDate: "2014-10-01"
-#    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-#    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+
+certifications:
+  - title: "Microsoft Certified: Fabric Analytics Engineer (DP-600)"
+  - title: "Microsoft Certified: Power BI Data Analyst (PL-300)"
+  - title: "Microsoft Certified: Azure Enterprise Data Analyst (DP-500)"
+  - title: "Certified Smartabase Builder (Athlete Management System)"
+
 skills:
-  - name: "Web Development"
+  - name: "Business Intelligence & Reporting"
     level: "Master"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "Power BI"
+      - "SSRS"
+  - name: "Data Science & Analytics"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Python (pandas, numpy, scrapy)"
+      - "R (tidyverse, ggplot, shiny)"
+  - name: "Databases & Cloud Technologies"
+    keywords:
+      - "Microsoft Fabric"
+      - "SQL (PostgreSQL, MySQL)"
+      - "Azure"
+      - "SAP HANA"
+  - name: "Athlete Performance Analytics"
+    keywords:
+      - "Teamworks AMS"
+  - name: "Machine Learning & Modelling"
+    keywords:
+      - "Predictive modelling"
+      - "Bayesian analysis"
+      - "Regression models"
+  - name: "Web Scraping & Automation"
+    keywords:
+      - "Python (beautifulsoup, selenium, scrapy)"
+      - "R (rvest)"
+
+awards:
+  - title: "Maven Analytics February 2024 Data Viz Winner"
+    summary: "Winning dashboard."
+  - title: "6x International Appearances for Great Britain (Decathlon)"
+  - title: "2015 UK Decathlon Champion"
+
 languages:
   - language: "English"
     fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
+
+
+
 #references:
 #  - name: "Erlich Bachman"
 #    reference: >
