@@ -29,6 +29,10 @@ For more on adaptive ranges using EM approximation click [here]((https://journal
 - **Seamless Power BI & R Integration:** Enables advanced statistical analysis within an interactive Power BI report.
 - **Scalability:** Designed to be easily deployed across teams in an organization.
 
+## Interactive Report
+
+<iframe title="CMJ Monitoring Report (With Pre Calc Adaptive Range)" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiNzJhMWY4ZTctMmY2Zi00MTRjLWI2OTktZjAyNDBiOTUzYzVjIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Next Steps
 - **Connect directly to the VALD API** for real-time, in-session monitoring.
 - **Enable parameter customization** for adaptive range calculations.
