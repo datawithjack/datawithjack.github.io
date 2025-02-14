@@ -35,7 +35,7 @@ The report follows a design similar to the PWA website, maintaining visual consi
 
 A key feature of the dashboard is a custom elimination visual created with Deneb and Vega-Lite. This visual tracks rider progression through each round, incorporating a scatter plot to enhance the results tooltip.
 
-The dashboard is embedded on GitHub Pages for easy access.
+The dashboard is also embedded on GitHub Pages for easy access.
 
 ## Future Plans
 
@@ -45,6 +45,8 @@ If you're interested in sports data visualization or have feedback, feel free to
 
 ### Explore the Report
 Dedicated Report Page: [View the report](https://lnkd.in/dnry_JCP)  
+
+<iframe title="PWA Pozo Report (Wave)" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiMDI4MjIyN2YtNGQ2Yy00NzMyLWFkYTAtMzFiYjM2ODk1MjhiIiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 
 
