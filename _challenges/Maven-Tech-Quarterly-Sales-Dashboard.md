@@ -57,3 +57,7 @@ Developed using Power BI, the dashboard structure showcases Key Performance Indi
 
 Metrics are compared quarter over quarter (QoQ), with both absolute and percentage changes where relevant. Metrics also include national and regional ranks to foster competitiveness among teams and drive sales improvements.
 
+
+### Interactive Report
+
+<iframe title="Maven Sales Report v3" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiZGMxNzc2ZDMtYWRjNC00MmMxLTkxMjgtZWNhYWVhMWY3NWE5IiwidCI6IjRlNDc4YWIwLWFjYWUtNGRiNS1hYjA4LTQ0ZjdlOTliNDc1MiJ9" frameborder="0" allowFullScreen="true"></iframe>
