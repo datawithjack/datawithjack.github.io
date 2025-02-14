@@ -44,10 +44,9 @@ In 2025, I plan to expand this project to include SlalomX, Foil Slalom, and Free
 If you're interested in sports data visualization or have feedback, feel free to reach out.
 
 ### Explore the Report
+Dedicated Report Page: [View the report](https://lnkd.in/dnry_JCP)  
 
 
-
-Interactive Power BI report: [View the report](https://lnkd.in/dnry_JCP)  
 
 
 
