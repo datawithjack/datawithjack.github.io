@@ -24,4 +24,4 @@ Here's what some of my clients have to say about working with me:
 
 ### Let’s Get Started!
 
-Feel free to get in contact with me at [jack@datawithjack.com](mailto:jack@datawithjack.com) to book your free consultation.
+Feel free to get in contact with me at [jackfrankandrew@gmail.com](mailto:jackfrankandrew@gmail.com) to book your free consultation.
