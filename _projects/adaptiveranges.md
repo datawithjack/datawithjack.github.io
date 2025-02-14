@@ -17,7 +17,7 @@ categories: [portfolio, powerbi]
 ## CMJ Adaptive Range Monitoring Dashboard
 I developed this dashboard to enhance athlete monitoring. It integrates CMJ (Countermovement Jump) metrics from the VALD ForceDecks system with adaptive ranges using Expectation-Maximization (EM) approximation in Power BI and R.
 
-For more on adaptive ranges using EM approximation click [here]((https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247338)
+For more on adaptive ranges using EM approximation click [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247338)
 
 ## Project Overview
 - **Data Integration:** Imported athlete force plate data from VALD ForceDecks into Power BI.
