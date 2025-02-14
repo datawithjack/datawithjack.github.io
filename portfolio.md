@@ -7,6 +7,7 @@ selected_projects:
   - _projects/roadtoparisfencing.md
   - _projects/sportsacademyreport.md
   - _projects/adaptiveranges.md
+  - _projects/pwa-windsurf.md
 projects_page: projects.md
 featured: true
 ---
