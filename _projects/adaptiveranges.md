@@ -1,7 +1,7 @@
 ---
 layout: project
 title: CMJ Adaptive Range Monitoring Dashboard
-image: /assets/img/portfolio/trips_screenshot1.jpg
+image: /assets/img/portfolio/vald-adaptive-range.jpg
 # accent_image: 
 #  background: url('/assets/img/blog/jj-ying.jpg') center/cover
 #  overlay: false
