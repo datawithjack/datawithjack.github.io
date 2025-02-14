@@ -6,6 +6,7 @@ selected_projects:
   - _projects/dohatrackstars.md
   - _projects/roadtoparisfencing.md
   - _projects/sportsacademyreport.md
+  - _projects/adaptiveranges.md
 projects_page: projects.md
 featured: true
 ---
